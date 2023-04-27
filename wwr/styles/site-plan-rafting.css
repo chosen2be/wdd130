@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 :root {
-    --primary-color: #5a5353;
-    --secondary-color: #886a6f;
-    --accent1-color: #0553b9;
-    --accent2-color: #0c070b;
+    --primary-color: #0D0630;
+    --secondary-color: #384e77;
+    --accent1-color: #8bbeb2;
+    --accent2-color: #e6f9af;
 
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Rock Salt', serif;
 
-    --nav-background-color: #5a5353;
-    --nav-link-color: #0553b9;
-    --nav-hover-link-color: #0553b9;
-    --nav-hover-background-color: #0c070b;
+    --nav-background-color: #0d0630;
+    --nav-link-color: #8bbeb2;
+    --nav-hover-link-color: #8bbeb2;
+    --nav-hover-background-color: #384e77;
 }
 
 body {
