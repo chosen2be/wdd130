@@ -31,6 +31,11 @@ header {
     background-color: var(--accent1-color);   
 }
 
+footer {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
 p {
     font-family: var(--paragraph-font);
     padding: 25px;
