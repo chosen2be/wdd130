@@ -38,12 +38,13 @@ aside {
 }
 
 aside img {
+    position: relative;
     width: 200px;
     height: auto;
 }
 
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 47px;
     left: 150px;
 }
