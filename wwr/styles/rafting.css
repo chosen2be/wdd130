@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #0D0630;
+    --secondary-color: #384e77;
+    --accent1-color: #8bbeb2;
+    --accent2-color: #e6f9af;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Rock Salt', serif;
+
+    --nav-background-color: #0d0630;
+    --nav-link-color: #8bbeb2;
+    --nav-hover-link-color: #8bbeb2;
+    --nav-hover-background-color: #384e77;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+h2, h3{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    padding: 25px;
+}
+
+.content {
+    width: 1000px;
+}
+
+.hero {
+	margin: 10px auto;
+	position: relative; 
+}
+.hero img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: .8;
+}
+
+h1 {
+    position: absolute;
+    color: var(--accent2-color);
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1.65rem;
+
+
+}
+
+.information {
+    text-align: center;
+    position: absolute;
+
+
+}
+
+.aboutus-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    box-sizing: border-box; 
+    align-items: center;
+    justify-items: center; 
+    }
+
+.picture {
+    width: 25%;
+    padding: 1rem;
+}
