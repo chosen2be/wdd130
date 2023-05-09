@@ -53,10 +53,13 @@ aside img {
     position: relative;
     width: 200px;
     height: auto;
+    float: above;
 }
 
 aside h2 {
     position: absolute;
+    bottom: 185px;
+    /* right: 110px;*/
 
 } 
 
