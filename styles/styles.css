@@ -39,6 +39,7 @@ p {
 }
 
 aside {
+    position: relative;
     width: 20em;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -55,9 +56,9 @@ aside img {
 }
 
 aside h2 {
-    position: relative;
-    bottom: 20px;
-
+    position: absolute;
+    bottom: 185px;
+    right: 110px;
 }
 
 footer {
