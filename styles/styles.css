@@ -22,6 +22,10 @@ nav a {
 
 }
 
+header {
+    max-width: 840px;
+}
+
 h1 {
     color: steelblue;
     padding: .5rem;
@@ -49,7 +53,7 @@ p {
 aside {
     /*max-width: 840px;*/
     position: relative;
-    width: 20em;
+    width: 840px;
     text-align: center;
 }
 
@@ -62,13 +66,13 @@ aside img {
 aside h2 {
    /* max-width: 840px;*/
     position: absolute;
-    bottom: 185px;
+    bottom: 175px;
     /* right: 110px;*/
 
 } 
 
 footer {
-    /*max-width: 840px;*/
+    max-width: 840px;
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
