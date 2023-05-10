@@ -1,130 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Tiro+Kannada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #0D0630;
+    --secondary-color: #384e77;
+    --accent1-color: #8bbeb2;
+    --accent2-color: #e6f9af;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Rock Salt', serif;
+
+    --nav-background-color: #0d0630;
+    --nav-link-color: #8bbeb2;
+    --nav-hover-link-color: #8bbeb2;
+    --nav-hover-background-color: #384e77;
+}
 
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+    max-width: 840px;
+    margin: auto;
 }
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 35px;
-}
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
-.button-box {
-    text-align: center;
-}
-main section {
-    text-align: center;
-}
-#background {
-    height: 725px;
-    background-color: #0e402d;
-}
-body {
-    background-color: #295135;
-    font-family: 'Koulen', Arial, Helvetica, sans-serif;
-    font-size: 22px;
+
+* {
     margin: 0;
     padding: 0;
-}
-header {
-    background-color: #000000;
-    font-family: 'Tiro Kannada';
-    font-size: 1.1em;
-    line-height: 2em;
-}
-nav a:hover {
-    background-color: #0e402d;
-    color: #295135;
-}
-.book, .join {
-    background-color: #9fcc2e;
-    text-decoration: none;
-    padding: 15px 30px;
-}
-.book:hover, join:hover {
-    background-color: #5a6650;
-}
-#background {
-    background-color: #000000;
-}
-.msg {
-    background-color: #295135;
-    line-height: 1.5em;
-}
-footer {
-    background-color: #0e402d;
-    padding: 25px 50px;
-    margin-top: 200px;
-}
-.home-title {
-    color: black;
-    font-family: 'Koulen';
-    font-size: 3em;
-    margin-top: 10px; 
-}
-h4 {
-    color: black;
-}
-.book, .join {
-    color:black;
-    font-size: 18px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-.book:hover, .join:hover {
-    color: #295135;
-}
-.msg h2 {
-    color: black;
-}
-.msg p {
-    color:black;
-    font-size: .8em;
-    padding-bottom: 15px;
-}
-footer h3 {
-    color: black;
-}
-footer a {
-    color: black;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #5a6650;
-}
-.logo {
-    width: 80px;
-}
-.icon {
-    width: 560px;
-    padding-top: 10px;
-}
-#hero-img {
-    width: 100%
-}
-footer h3 a:hover {
-    text-decoration: underline;
-}
-h2 {
-    margin: 0;
-}
-#logo_link {
-    padding-top: 5px;
-}
-footer .social img {
-    padding-top: 15px;
-}
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
-}
-.card-img {
-    border: 10px;
-}
-main section img {
     box-sizing: border-box;
 }
+
+.logo {
+    margin: 0 0.25rem 0 1rem;
+    width: 10px;
+    height: auto;
+}
+
+nav {
+    background-color:#0D0630;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: var(--nav-link-color);
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    font-family: var(--nav-link-color);
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    padding: .5rem;    
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    font-family: var(--heading-font);
+    
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    position: absolute;
+    color: white;
+    bottom: 500px;
+    left: 300px;
+    font-family: 'Roboto', serif;
+}
+
+.purpose {
+    position: absolute;
+    box-sizing: border-box;
+	top: 100px;
+	left: 15px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.8;
+    margin: 10px;
+    width: 800px;
+    font-family: var(--paragraph-font);
+}
+
+.floater {
+    height: 150px;
+    float: right;
+    max-width: 40%;
+}
+
+section {
+    position: relative;
+	padding: 0.65rem;
+    font-family: var(--paragraph-font);
+
+}
+
