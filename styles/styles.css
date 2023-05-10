@@ -39,6 +39,7 @@ p {
 }
 
 aside {
+    max-width: 840px;
     position: relative;
     width: 20em;
     margin: 1em;
@@ -56,6 +57,7 @@ aside img {
 }
 
 aside h2 {
+    max-width: 840px;
     position: absolute;
     bottom: 185px;
     /* right: 110px;*/
@@ -63,6 +65,7 @@ aside h2 {
 } 
 
 footer {
+    max-width: 840px;
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
