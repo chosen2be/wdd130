@@ -101,7 +101,7 @@ h1 {
 	opacity: 0.8;
     margin: 10px;
     width: 800px;
-    font-family: var(--paragraph-font);
+    font-family:sans-serif;
 
 }
 
@@ -114,7 +114,7 @@ h1 {
 section {
     position: relative;
 	padding: 0.65rem;
-    font-family: var(--paragraph-font);
+    font-family: sans-serif;
 
 }
 
