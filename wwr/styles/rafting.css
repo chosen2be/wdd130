@@ -38,11 +38,13 @@ nav {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .navigation {
     display: flex;
     list-style: none;
+    font-family: sans-serif;
 }
 
 .navigation li {
