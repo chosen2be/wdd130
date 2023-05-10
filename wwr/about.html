@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="wwr/styles/rafting.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>About Us</title>
@@ -11,39 +11,51 @@
 <body>
     <div id="content">
         <header>
+            <a>
                 <img class="logo" src="images/logo.png" alt=" logo">
+            </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
             </nav>
         </header>
-        <main>
-            <div class="hero">
-                <img class="picture" src="images/hero2.png" alt="hard work" >
-                <h1>White Water Rafting</h1>
-                <h2 class="information">    
-                    Here you will find information about us!
-                <img class="picture" src="images/hero1.png" alt="hard work" >
-                </h2>
+        <div id="hero">
+            <div id="hero-box">
+                <img src="images/hero2.png" id="hero-img" alt="people enjoying rafting!"> 
             </div>
-
-            <section class="history">
+            <section id="hero-msg">
+                <h1 class="home-title">White Water Rafting</h1>
+            </section>
+        </div>
+        <main class="home-grid">
+            <section class="1-card">
+                <img class="card-img" src="images/hero2.png" alt="hard work" >
+                <img class="icon" src="images/hero2.png" alt="hard work" >
+                    <h2> 
+                        We are a group of passionate outdoor enthusiasts who love nothing more than exploring the great outdoors and taking on new challenges. 
+                        Our team is made of experienced rafting guides who have a deep knowledge of the local rivers and terrain, and who are commited to 
+                        providing you with an unforgettable rafting experience.
+                        <img class="picture" src="images/hero1.png" alt="hard work" width="50" >
+                    </h2>
+            </section>
+            <section class="2-card">
                 <h2>History</h2>
                 <p>This is where info about our history will go</p>
             </section>
-
-            <section class="adventure">
+            <section class="3-card">
                 <h2>Adventure Awaits You</h2>
                 <img src="images/adventure1.png" alt="beautiful river">
                 <img src="images/adventure2.png" alt="beautiful blue river">
                 <img src="images/adventure3.png" alt="intense rapids">
                 <img src="images/adventure4.png" alt="fun in the sun">
                 <img src="images/adventure5.png" alt="fun with friends">
-
             </section>
-
+            <div id="background"></div>
+            <img src="images/hero1.png" class="support" alt="boat">
         </main>
         <footer>
             <p> &copy; 2023 - White Water Rafting - Nicole Thomas</p>
