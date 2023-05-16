@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #0D0630;
+    --secondary-color: #384e77;
+    --accent1-color: #8bbeb2;
+    --accent2-color: #e6f9af;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Rock Salt', serif;
+
+    --nav-background-color: #0d0630;
+    --nav-link-color: #8bbeb2;
+    --nav-hover-link-color: #8bbeb2;
+    --nav-hover-background-color: #384e77;
+}
+
+#content {
+   
+    margin: auto;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+    color: #0D0630;
+    background: #384e77;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: #0D0630;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    background-color:#8bbeb2;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: .5rem;
+    color: #0d0630;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textaread {
+    padding: 0.5rem;
+    font-size:  1.1rem;
+
+}
+
+button {
+    margin: 1rem;
+    background-color: #0D0630;
+    color: #e6f9af;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+.image {
+    justify-content: center;
+}
