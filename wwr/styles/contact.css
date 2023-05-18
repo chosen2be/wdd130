@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #0D0630;
+    --secondary-color: #384e77;
+    --accent1-color: #8bbeb2;
+    --accent2-color: #e6f9af;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Rock Salt', serif;
+
+    --nav-background-color: #0d0630;
+    --nav-link-color: #8bbeb2;
+    --nav-hover-link-color: #8bbeb2;
+    --nav-hover-background-color: #384e77;
+}
+
+#content {
+    max-width: 840px;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+.logo {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+nav {
+    background-color:#0D0630;
+    padding: 1rem;
+    justify-content: space-evenly;
+    text-align: right;
+    font-family: 'Roboto', serif;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    font-family: 'Roboto', serif;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    padding: 20px;    
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 840px;
+    height: auto;
+}
+
+
+h1 {
+    position: relative;
+    color:#0D0630;
+    /* bottom: 450px;
+    left: 200px; */
+    font-family:var(--heading-font);
+    font-size: 3rem;
+}
+
+.information {
+    position: relative;
+    /* box-sizing: border-box;
+	top: 100px;
+	left: 15px; */
+	/* background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.8;
+    margin: 10px;
+    width: 790px; */
+    font-family:var(--paragraph-font);
+}
+
+section {
+    position: relative;
+	padding: 0.65rem;
+    font-family:var(--paragraph-font);
+
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-size: 3rem;
+    text-align: left; 
+
+}
+
+h4 {
+    font-size:1.5rem;
+    text-align: left;
+
+}
+
+.history {
+    top: 10px;
+    /* margin: 10px; */
+    width: 840px;
+    font-family: 'Roboto', serif;
+
+}
+
+.history_img {
+
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+    max-width: 40%;
+}
+
+p {
+    font-size:1.5rem;
+    text-align: left;
+}
+
+.ad-grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 840px; 
+}
+.employee {
+    display: flex;
+    height: 175px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.social {
+    background-color:#0D0630;
+    padding: 1rem;
+    justify-content: space-evenly;
+    text-align: right;
+    font-family: 'Roboto', serif;
+}
+
+h5 {
+    color: white;
+    padding: 1rem;
+    font-family: 'Roboto', serif;
+    font-size: 1.5rem;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    background-color:#8bbeb2;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: .5rem;
+    color: #0d0630;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textaread {
+    padding: 0.5rem;
+    font-size:  1.1rem;
+
+}
+
+.radio-container {
+    display: flex;
+    align-items: left;
+
+}
+
+.radio-label {
+    margin-right: 10px;
+}
+
+.radio-input {
+    align-items: left;
+}
+
+button {
+    margin: 1rem;
+    background-color: #0D0630;
+    color: #e6f9af;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+
+}
+
+button:hover {
+    background-color: tomato;
+}
