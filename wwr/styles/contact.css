@@ -218,7 +218,7 @@ input, select, textaread {
 
 .radio-container {
     display: flex;
-    align-items: left;
+    align-items: center;
 
 }
 
@@ -227,7 +227,7 @@ input, select, textaread {
 }
 
 .radio-input {
-    align-items: left;
+    align-items: center;
 }
 
 button {
