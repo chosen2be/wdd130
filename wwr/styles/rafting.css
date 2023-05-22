@@ -140,6 +140,7 @@ h4 {
     margin-bottom: 1em;
     text-align: justify;
     width: 840px;
+    font-family: var(--heading-font);
 
 }
 
@@ -190,4 +191,44 @@ h5 {
     padding: 1rem;
     font-family: 'Roboto', serif;
     font-size: 1.5rem;
+}
+
+.trip {
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+    font-size:1.5rem;
+
+
+}
+
+button {
+    margin: 1rem;
+    background-color: #0D0630;
+    color: #e6f9af;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;    
+
+}
+
+.flex-container {
+    display: flex;
+    width: 840px;
+}
+
+.figcaption {
+    text-align: center;
+}
+
+.trip2 {
+    padding: 15px;
+    text-align: left;
+    font-size:2rem;
+
+}
+
+.li {
+    color: #eee;
 }
