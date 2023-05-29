@@ -111,6 +111,7 @@ h1 {
     margin: 10px;
     width: 790px;
     font-family: 'Roboto', serif;
+    text-align: center;
 }
 
 .floater {
@@ -133,21 +134,33 @@ h2 {
 
 }
 
+h3 {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    text-align: center; 
+
+}
+
 h4 {
     font-size:1.5rem;
     text-align: left;
     margin-top: 0;
     margin-bottom: 1em;
-    text-align: justify;
-    width: 840px;
+    width: 825px;
     font-family: var(--heading-font);
 
 }
 
 .history {
     top: 10px;
-    /* margin: 10px; */
+    margin: 10px;
     width: 840px;
+    font-family: 'Roboto', serif;
+    box-sizing: border-box;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
     font-family: 'Roboto', serif;
 
 }
@@ -179,12 +192,13 @@ p {
 }
 
 .social {
-    max-width: 840px;
+
     background-color:#0D0630;
     padding: 1rem;
     justify-content: space-evenly;
     text-align: right;
     font-family: 'Roboto', serif;
+    align-items: center;
 }
 
 h5 {
