@@ -16,6 +16,7 @@
 }
 
 #content {
+    max-width: 840px;
     margin: auto;
 }
 
@@ -178,6 +179,7 @@ p {
 }
 
 .social {
+    max-width: 840px;
     background-color:#0D0630;
     padding: 1rem;
     justify-content: space-evenly;
