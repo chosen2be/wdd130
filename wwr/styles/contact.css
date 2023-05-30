@@ -169,6 +169,7 @@ p {
     justify-content: space-evenly;
     text-align: right;
     font-family: 'Roboto', serif;
+    margin: auto;
 }
 
 h5 {

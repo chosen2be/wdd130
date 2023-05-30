@@ -116,8 +116,9 @@ h1 {
 
 .floater {
     height: 150px;
-    float: right;
+    float: left;
     max-width: 40%;
+    margin-right: 20px;
 }
 
 section {
@@ -193,12 +194,13 @@ p {
 
 .social {
 
+    max-width: 840px;
     background-color:#0D0630;
     padding: 1rem;
     justify-content: space-evenly;
     text-align: right;
     font-family: 'Roboto', serif;
-    align-items: center;
+    margin: auto;
 }
 
 h5 {
@@ -246,4 +248,17 @@ button {
 
 .li {
     color: #eee;
+}
+
+.flex-container2 {
+    display: flex;
+    width: 840px;
+}
+
+.reviews {
+    display: flex;
+    padding: 15px;
+    text-align: left;
+    font-size:2rem;
+
 }
