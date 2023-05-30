@@ -98,6 +98,16 @@ h1 {
     font-size: 3rem;
 }
 
+
+h6 {
+    position: absolute;
+    color: rgb(8, 4, 4);
+    bottom: 450px;
+    left: 200px;
+    font-family: 'Roboto', serif;
+    font-size: 3rem;
+}
+
 .purpose {
     position: absolute;
     box-sizing: border-box;
